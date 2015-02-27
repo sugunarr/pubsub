@@ -1,0 +1,1823 @@
+body {
+background-image:none!important;
+background-color:#fff;
+font: 12px/14px sans-serif;
+}
+a{
+font: 12px/14px sans-serif;
+}
+.wcs-fLeft {
+float:left;
+}
+
+.wcs-shopping-hide {
+display:none;
+}
+
+.wcs-shopping-show {
+display:block;
+}
+
+.wcs-basketMarginTop {
+clear:both;
+margin-top:30px;
+padding-bottom:50px;
+}
+
+.wcs-shopping-item-content .wcs-border-left {
+border-left:1px solid #eee;
+display:table;
+height:90px;
+margin-right:5px;
+text-align:center;
+vertical-align:middle;
+}
+
+.wcs-font-13 {
+font-size:13px!important;
+}
+
+.wcs-basketMarginTop .wcs-button-checkout {
+width:95px;
+padding:7px;
+}
+
+.wcs-shopping-item-content span.wcs-product-blurb {
+line-height:18px;
+color:#666;
+margin-top:5px;
+text-transform:capitalize;
+margin-bottom:6px;
+}
+
+.wcs-shopping-item-content strong.wcs-product-blurb {
+margin-top:0;
+color:#666;
+}
+
+.wcs-shopping-sup {
+font-size:12px;
+position:relative;
+top:-3px;
+}
+
+.wcs-button-black,.wcs-button-red,.wcs-button-gray {
+font-size:16px;
+text-align:center;
+text-transform:uppercase;
+padding:4px 0 1px;
+}
+
+.wcs-button-black {
+border:2px solid #000;
+}
+
+.wcs-button-red {
+border:2px solid #ec1e24;
+width:88%;
+}
+
+.wcs-button-red a {
+color:#ec1e24;
+}
+
+.wcs-button-gray {
+border:2px solid #cacaca;
+}
+
+.wcs-button-gray a {
+color:#cacaca;
+}
+
+.wcs-shopping-tryon-text {
+color:#666;
+padding-bottom:10px;
+}
+
+.wcs-shopping-item-qtyPlus,.wcs-shopping-item-qtyMinus,.wcs-shopping-info {
+display:inline-block;
+height:20px;
+text-decoration:none!important;
+width:20px;
+}
+
+.wcs-shopping-item-qtyMinus,.wcs-shopping-item-qtyPlus {
+margin-top:-2px;
+}
+
+.wcs-shopping-item-qtyPlus {
+margin-left:10px;
+background-position:-3px -181px!important;
+}
+
+span.wcs-shopping-info {
+background:url(../icons/spritesheet.png) no-repeat scroll -54px -71px transparent;
+float:none;
+text-indent:-9999px;
+}
+
+.wcs-shopping-item-qtyMinus {
+margin-right:10px;
+background-position:-3px -163px!important;
+}
+
+.wcs-shopping-item-qtyMinus.wcs-on {
+background-position:-3px -200px!important;
+}
+
+.wcs-msg-success,.wcs-msg-error,.wcs-msg-info {
+border:3px solid green;
+color:green;
+margin-bottom:30px;
+padding:6px 5px 4px 20px;
+}
+
+.wcs-msg-error {
+color:red;
+border-color:red;
+}
+
+.wcs-msg-info {
+color:gray;
+border-color:gray;
+}
+
+.wcs-mydetails.wcs-msg-success {
+border:2px solid green;
+}
+
+.wcs-msg-success h4,.wcs-msg-error h4,.wcs-msg-info h4 {
+display:inline-block;
+text-transform:uppercase;
+}
+
+.wcs-msg-success span,.wcs-msg-error span,.wcs-msg-info span {
+font-size:18px;
+text-transform:none;
+}
+
+.wcs-shopping-item-title {
+background:#f3f3f3;
+margin-top:30px;
+padding:5px 0;
+}
+
+.wcs-shopping-item-title .wcs-alpha {
+padding-left:20px;
+text-align:left!important;
+width:211px!important;
+}
+
+.wcs-shopping-item-title .wcs-omega {
+margin-right:10px;
+text-align:right;
+width:140px!important;
+}
+
+.wcs-shopping-item-content,.wcs-shopping-item-content-last,.wcs-myOrder-details-content {
+border-bottom:1px solid #eee;
+position:relative;
+padding:30px 0 10px;
+}
+
+.wcs-shopping-item-content.wcs-myOrder-details-content {
+border:0;
+}
+
+.wcs-shopping-item-content-last {
+border-bottom:3px solid #dfdfdf;
+}
+
+.wcs-shopping-item-content .wcs-border-left.wcs-omega {
+margin-right:0;
+margin-left:0;
+}
+
+.wcs-shopping-item-content .wcs-product-title {
+color:#333;
+font-size:18px;
+margin-top:5px;
+}
+
+.wcs-shopping-item-details {
+font-family:helvetica;
+display:table-cell;
+vertical-align:middle;
+line-height:18px;
+}
+
+.wcs-shopping-item-qty {
+color:#000;
+font-size:20px;
+text-align:center;
+width:90px;
+margin:15px auto 0;
+padding:20px 0 0 15px;
+}
+
+.wcs-shopping-item-qty a {
+width:15px;
+height:18px;
+background:url(../icons/spritesheet.png) no-repeat transparent;
+}
+
+.wcs-shopping-item-details span {
+display:block;
+font-size:12px;
+color:#333;
+width:140px;
+margin:0 auto;
+}
+
+.wcs-shopping-item-price {
+color:#333;
+font-size:20px;
+position:relative;
+text-align:right;
+padding:35px 0 0 20px;
+}
+
+.wcs-basketMarginTop .wcs-product-title,.wcs-basketMarginTop .wcs-product-blurb {
+display:block;
+height:auto;
+padding-left:22px;
+text-align:left;
+}
+
+.wcs-product-blurb-padding-3 {
+padding-top:3px;
+}
+
+.wcs-shopping-item-subTotal {
+padding:25px 0;
+}
+
+.wcs-shopping-subTotal {
+font-size:16px;
+margin-bottom:5px;
+text-align:right;
+}
+
+.wcs-shopping-subTotal-padding {
+padding-right:20px;
+}
+
+.wcs-shopping-info-text {
+color:#666;
+font-size:14px;
+margin-right:10px;
+}
+
+.wcs-shopping-border-price {
+background:#333;
+clear:both;
+height:2px;
+}
+
+.wcs-shopping-total-title {
+color:#333;
+font-size:24px;
+text-transform:uppercase;
+padding:8px 0;
+}
+
+.wcs-shopping-title-recommends {
+clear:both;
+color:#333;
+padding:10px 0;
+}
+
+.wcs-shopping-content-recommends,.wcs-register-with-us {
+background:#eee;
+padding:25px 0 15px;
+}
+
+input.wcs-shopping-txt-promo,input.wcs-shopping-txt-promo:focus,input.wcs-shopping-button-promo {
+border:1px solid #888;
+float:left;
+margin-right:5px;
+width:130px;
+}
+
+input.wcs-shopping-button-promo {
+background:0;
+border:0;
+color:#999;
+font:16px trade_gothic_lt_bold_condensed,helvetica;
+text-transform:uppercase;
+width:55px;
+height:30px;
+padding:4px 0 3px;
+}
+
+.wcs-shopping-home-tryon {
+clear:both;
+padding-top:50px;
+}
+
+.wcs-shopping-continue-shopping {
+padding:20px 0 30px;
+}
+
+.wcs-shopping-item-count-circle {
+background:#eee;
+border-radius:25px 25px 25px 25px;
+height:23px;
+left:0;
+padding-top:2px;
+position:absolute;
+text-align:center;
+top:105px;
+width:25px;
+}
+
+.wcs-tryon-cart-choose,.wcs-tryon-cart-deposit,.wcs-tryon-cart-freeShipping,.wcs-tryon-cart-tryout {
+margin-top:35px;
+text-transform:uppercase;
+}
+
+.wcs-tryon-process-text {
+float:left;
+padding-left:12px;
+}
+
+.wcs-tryon-process-icon,.wcs-tryon-process-arrBg {
+background:url(../icons/spritesheet.png) no-repeat scroll 0 0 transparent;
+float:left;
+display:inline-block;
+height:20px;
+width:20px;
+}
+
+.wcs-tryon-process-arrBg {
+background-position:-52px -286px;
+float:right;
+height:25px;
+margin-right:-25px;
+margin-top:-3px;
+width:12px;
+}
+
+.wcs-tryon-cart-choose .wcs-tryon-process-icon {
+background-position:-52px -322px;
+width:47px;
+}
+
+.wcs-tryon-cart-deposit .wcs-tryon-process-icon {
+background-position:-52px -344px;
+height:28px;
+margin-top:-6px;
+width:32px;
+}
+
+.wcs-tryon-cart-freeShipping .wcs-tryon-process-icon {
+background-position:-52px -379px;
+height:25px;
+margin-top:-6px;
+width:40px;
+}
+
+.wcs-tryon-cart-tryout .wcs-tryon-process-icon {
+background-position:-52px -414px;
+height:27px;
+margin-top:-6px;
+width:35px;
+}
+
+.wcs-tryon-cart-freeShipping .wcs-tryon-process-arrBg {
+margin-right:-42px;
+}
+
+.wcs-tryon-cart-deposit {
+margin-left:20px;
+}
+
+.wcs-tryon-cart-freeShipping {
+margin-left:39px;
+}
+
+.wcs-tryon-cart-tryout {
+margin-left:55px;
+}
+
+.wcs-shopping-item-price a.wcs-shopping-addtobag {
+font-size:15px;
+position:absolute;
+right:0;
+text-decoration:underline;
+top:70px;
+}
+
+.wcs-product-confirm-div .wcs-shopping-item-content .wcs-three.wcs-columns.wcs-fill.wcs-alpha {
+text-align:left;
+}
+
+.wcs-payment-confirm-title .wcs-fRight a {
+font-size:18px;
+padding-left:24px;
+}
+
+.wcs-shopping-item-share {
+color:#000;
+display:block;
+font-size:16px;
+padding-left:20px;
+text-align:left;
+text-decoration:none!important;
+text-transform:uppercase;
+margin-top:-15px;
+}
+
+.wcs-payment-confirm-bottom {
+margin-top:40px;
+}
+
+.wcs-payment-confirm-bottom h4 {
+border-bottom:2px solid #ccc;
+color:#000;
+padding-bottom:3px;
+text-transform:uppercase!important;
+}
+
+.wcs-payment-address,.wcs-payment-method {
+padding-top:30px;
+}
+
+.wcs-payment-address strong,.wcs-payment-method strong {
+display:block;
+font-size:18px;
+margin-bottom:10px;
+}
+
+.wcs-payment-address span,.wcs-payment-method span {
+display:block;
+font-family:helvetica;
+}
+
+.wcs-payment-method span {
+float:left;
+margin-right:10px;
+width:110px;
+}
+
+.wcs-payment-method span.first {
+width:140px;
+}
+
+.wcs-payment-method span.second {
+width:160px;
+}
+
+.wcs-order-details,.wcs-myOrder-details {
+background:none repeat scroll 0 0 #333;
+color:#fff;
+font-size:18px;
+margin-top:30px;
+padding:20px 0;
+}
+
+.wcs-myOrder-details {
+background:#424242;
+font-size:14px;
+margin-top:15px;
+padding:10px 0;
+}
+
+.wcs-order-no-top-margin {
+margin-top:0!important;
+}
+
+.wcs-order-details .wcs-six.wcs-columns {
+width:458px;
+}
+
+.wcs-myOrder-details .wcs-alpha {
+padding-left:25px;
+width:175px!important;
+}
+
+.wcs-myOrder-details-content .wcs-two.wcs-columns {
+width:auto;
+margin-left:0;
+}
+
+.wcs-order-details h3,.wcs-myOrder-details h3 {
+color:#fff;
+float:left;
+line-height:normal;
+margin-bottom:0;
+margin-top:-5px;
+}
+
+.wcs-myOrder-details h3 {
+margin-top:-2px;
+font-size:20px;
+float:none;
+}
+
+.wcs-open-orders.wcs-myOrder-details h3 {
+float:none;
+display:inline;
+}
+
+.wcs-order-details .wcs-omega span,.wcs-myOrder-details .wcs-myOrder-amount span {
+float:right;
+padding-right:5px;
+text-align:left;
+width:115px;
+}
+
+.wcs-myOrder-details .wcs-myOrder-amount span {
+width:254px;
+}
+
+.wcs-confirm-order-header span {
+float:left!important;
+}
+
+.wcs-order-details .wcs-omega span {
+margin-left:0;
+}
+
+.wcs-order-history.wcs-myOrder-details .wcs-myOrder-amount span {
+width:auto;
+}
+
+.wcs-basket-subtotal {
+margin-left:322px;
+}
+
+.wcs-price {
+margin-right:15px;
+font-size:13px;
+font-weight:700;
+}
+
+.wcs-price-title {
+margin-right:12px;
+}
+
+.wcs-shopping-total-promotion,.wcs-shopping-total-tax {
+margin-bottom:7px;
+}
+
+.wcs-register-with-us .wcs-category-listing {
+min-height:auto;
+}
+
+.remove {
+font-size:14px;
+color:#888;
+cursor:pointer;
+}
+
+#wcs-calculate-tax-div .wcs-dropdown-text {
+width:148px;
+}
+
+.wcs-button-checkout {
+width:125px;
+}
+
+.wcs-basket-empty-button-continue {
+margin-top:60px;
+}
+
+.wcs-title-line-height {
+line-height:.5;
+}
+
+.wcs-basket-empty {
+margin-bottom:0!important;
+}
+
+.wcs-container .wcs-three.wcs-columns.wcs-myOrder-status-title {
+padding-left:20px;
+width:211px;
+}
+
+.wcs-order-history .wcs-three.wcs-columns.wcs-myOrder-status-title {
+margin-top:0;
+padding-top:11px;
+padding-bottom:13px;
+}
+
+.wcs-myOrder-details-content .wcs-nine.wcs-columns {
+margin-right:0;
+padding-right:4px;
+width:727px;
+}
+
+.wcs-myOrder-rows,.wcs-myOrderHistory-rows {
+border-bottom:1px solid #eee;
+clear:both;
+display:block;
+float:left;
+margin-bottom:26px;
+padding:0 0 24px;
+}
+
+.wcs-myOrderHistory-rows {
+float:none;
+border:0;
+}
+
+.wcs-myOrderHistory-rows .wcs-three.wcs-columns {
+width:248px;
+}
+
+.wcs-basketMarginTop .wcs-myOrder-rows .wcs-product-title,.wcs-basketMarginTop .wcs-myOrder-rows .wcs-product-blurb {
+padding-left:10px;
+}
+
+.wcs-myOrder-rows .wcs-one {
+width:auto!important;
+}
+
+.wcs-myOrder-rows .wcs-shopping-item-qty {
+width:15px;
+color:#666;
+padding:20px 10px 0 19px;
+}
+
+.wcs-myOrder-rows .wcs-shopping-item-details span {
+width:116px;
+}
+
+.wcs-shopping-item-details .wcs-lineHeight-16 {
+line-height:16px;
+}
+
+.wcs-myOrder-cost-section {
+clear:both;
+margin-top:-10px;
+float:left;
+}
+
+.wcs-myOrder-cost-details .wcs-eight.wcs-columns,.wcs-myOrder-total-cost-details .wcs-eight.wcs-columns {
+margin-right:25px;
+margin-bottom:2px;
+text-align:right;
+width:613px;
+}
+
+#ajax_response .wcs-myOrder-cost-details .wcs-eight.wcs-columns,#ajax_response .wcs-myOrder-total-cost-details .wcs-eight.wcs-columns {
+width:593px;
+}
+
+.wcs-myOrder-cost-details .wcs-one.wcs-columns,.wcs-myOrder-total-cost-details .wcs-one.wcs-columns {
+text-align:right;
+width:75px;
+margin-bottom:2px;
+}
+
+#ajax_response .wcs-myOrder-cost-details .wcs-one.wcs-columns,#ajax_response .wcs-myOrder-total-cost-details .wcs-one.wcs-columns {
+width:95px;
+}
+
+.wcs-myOrder-total-cost-details .wcs-eight.wcs-columns,.wcs-myOrder-total-cost-details .wcs-one.wcs-columns {
+margin-top:2px;
+margin-bottom:-4px;
+}
+
+.wcs-myOrder-total-cost-details {
+color:#333;
+font-weight:700;
+font-size:18px;
+text-transform:uppercase;
+}
+
+.wcs-myOrder-delivery,.wcs-myPreferences {
+border-bottom:2px solid #ccc;
+border-top:2px solid #ccc;
+margin:10px 0 25px;
+padding:15px 0;
+}
+
+.wcs-myOrder-delivery.wcs-twelve.wcs-columns {
+width:925px;
+margin-bottom:40px;
+padding:21px 20px 23px 15px;
+}
+
+.wcs-myOrder-delivery-address .wcs-ten.wcs-columns {
+width:763px;
+}
+
+.wcs-myOrder-delivery-payment .wcs-eight.wcs-columns {
+width:601px;
+}
+
+.wcs-myOrder-delivery-address.wcs-dob-validate {
+width:340px;
+}
+
+.wcs-myPreferences {
+border-top:0;
+border-color:#ebebeb;
+}
+
+.wcs-details-delivery-address>div {
+position:relative;
+}
+
+.wcs-details-delivery-address div.wcs-text-align-right {
+position:absolute;
+right:30px;
+bottom:25px;
+}
+
+.wcs-myPreferences a.wcs-boxborder,.wcs-myPreferences a.wcs-boxborder:hover {
+color:#333;
+text-decoration:none;
+margin-left:10px;
+}
+
+.wcs-preference-details {
+padding-bottom:10px;
+margin-bottom:10px;
+}
+
+.wcs-myPreferences .wcs-email-text {
+font-size:13px;
+line-height:18px;
+float:left;
+width:385px;
+}
+
+.wcs-myPreferences span.wcs-padLeft-4 {
+font:14px/21px trade_gothic_lt_bold_condensed,helvetica;
+}
+
+.wcs-myPreferences .wcs-label-check {
+float:left;
+background-position:-778px -135px;
+}
+
+.wcs-inactive-cursor {
+cursor:text!important;
+}
+
+.wcs-myOrder-delivery span,.wcs-myPreferences span {
+font-family:helvetica;
+font-size:12px;
+}
+
+.wcs-myPreferences .wcs-columns.wcs-alpha>span {
+font-family:trade_gothic_lt_bold_condensed;
+font-size:14px;
+}
+
+.wcs-basketMarginTop .wcs-myOrder-delivery h4 {
+color:#333;
+text-transform:uppercase;
+padding:0 0 6px;
+}
+
+.wcs-myOrder-delivery-address {
+float:left;
+padding-bottom:7px;
+}
+
+.wcs-myOrder-details.wcs-order-history {
+background:none repeat scroll 0 0 #f3f3f3;
+color:#666;
+margin-top:21px;
+padding:0;
+}
+
+.wcs-order-history h3 {
+color:#666;
+font-size:20px;
+float:right;
+margin-top:-2px;
+}
+
+.wcs-order-history .wcs-myOrder-status-title {
+background:#ebebeb;
+padding-bottom:14px;
+}
+
+.wcs-order-history .wcs-myOrder-status-title:hover {
+background:#dfdfdf;
+}
+
+span.wcs-order-history-circle {
+height:8px;
+width:8px;
+-moz-border-radius:10px;
+background:#ccc;
+cursor:default;
+border-radius:10px;
+display:inline-block;
+margin-right:0;
+}
+
+.wcs-myOrder-status-title div {
+cursor:default;
+float:left;
+margin-top:3px;
+}
+
+.wcs-myOrder-status-title div.wcs-myOrder-status-details {
+float:right;
+color:#000;
+text-transform:uppercase;
+font-size:15px;
+margin-top:3px;
+cursor:pointer;
+}
+
+.wcs-order-history .wcs-columns.wcs-fill {
+padding-top:10px;
+font-size:14px;
+}
+
+.wcs-status-info {
+font-family:helvetica;
+font-size:12px;
+clear:both;
+display:inline-block;
+width:100%;
+}
+
+.wcs-status-info a:hover {
+text-decoration:underline;
+color:#000;
+}
+
+.wcs-myOrder-status-section-waiting>a {
+clear:both;
+display:inline-block;
+}
+
+.wcs-myOrder-status-section-title {
+color:#333;
+font-size:20px;
+text-transform:uppercase;
+}
+
+.wcs-myOrder-status-section {
+border-bottom:1px solid #eee;
+margin-bottom:26px;
+padding-bottom:44px;
+height:107px;
+}
+
+.wcs-myOrders-receiveDetails {
+padding:0 24px;
+}
+
+a.wcs-myOrder-status-link {
+color:#333;
+text-decoration:underline;
+padding:10px 10px 10px 0;
+}
+
+.wcs-myOrder-status-section.wcs-three.wcs-columns {
+padding-left:6px!important;
+width:196px;
+}
+
+body:not([class="ipad"]) .wcs-myOrder-status-section-title>em:hover {
+background-position:-110px -455px;
+}
+
+.wcs-basketMarginTop h4.wcs-title-open-orders {
+clear:both;
+color:#333;
+font-size:20px;
+font-weight:700;
+line-height:normal;
+margin-top:40px;
+text-transform:uppercase;
+padding:0;
+}
+
+h3.wcs-title-myOrders {
+margin-top:-5px;
+font-size:26px;
+}
+
+.wcs-myOrder-padding {
+padding-left:17px!important;
+}
+
+.wcs-myOrder-status-section-title>span {
+float:left;
+margin-right:5px;
+}
+
+.wcs-myOrder-status-section-title>em {
+background:url(../icons/spritesheet.png) no-repeat scroll -78px -455px transparent;
+display:block;
+float:left;
+height:18px;
+position:relative;
+width:18px;
+top:0;
+left:0;
+vertical-align:top;
+}
+
+.wcs-myOrder-status-section-title>em p {
+top:-15px;
+font-style:normal;
+text-transform:none;
+left:30px;
+width:150px;
+padding:10px;
+}
+
+.ipad .wcs-myOrder-status-section-title>em p {
+top:30px!important;
+left:-110px;
+}
+
+.wcs-shopping-item-content.wcs-myOrder-history-content.wcs-myOrder-details-content {
+border-bottom:2px solid #eee;
+margin-bottom:25px;
+}
+
+.wcs-myOrder-history-content .wcs-myOrder-rows {
+border:medium none;
+}
+
+.wcs-myOrder-rows .wcs-shopping-sup {
+top:-5px;
+}
+
+.wcs-myOrder-status-details>em,.wcs-myOrder-status-details.wcs-myOrder-status-closeDetails em {
+background:url(../icons/spritesheet.png) no-repeat scroll -150px -244px transparent;
+display:inline-block;
+height:16px;
+width:30px;
+}
+
+.wcs-myOrder-status-details.wcs-myOrder-status-closeDetails em {
+background-position:-150px -258px;
+}
+
+.wcs-myOrder-status-title div.wcs-myOrder-status-details.wcs-myOrder-status-closeDetails {
+color:#5e5e5e;
+}
+
+.wcs-quick-buy-lightbox .wcs-textAlignRight {
+padding-top:15px;
+}
+
+.wcs-quick-buy-lightbox a.wcs-myOrder-status-link {
+margin-top:-5px;
+display:inline-block;
+}
+
+.wcs-quick-buy-lightbox h3 {
+font-size:20px;
+color:#333;
+margin-bottom:0;
+line-height:30px;
+}
+
+.wcs-font-size-26 h3 {
+font-size:26px!important;
+}
+
+#wcs_myDetails_addHomeAddress h3 {
+font-size:26px;
+}
+
+.wcs-lightBox-cancelOrder-content {
+font-family:helvetica;
+font-size:12px;
+line-height:23px;
+}
+
+.wcs-myDetails-title .wcs-login-title {
+margin-top:30px;
+}
+
+.wcs-delivery-address-book.wcs-login-title {
+border:0;
+color:#333;
+}
+
+.wcs-details-delivery-address .wcs-three.wcs-columns {
+border:solid 1px #ccc;
+width:170px;
+height:174px;
+padding:25px 30px 30px;
+}
+
+.wcs-details-delivery-address h4 {
+color:#333;
+font-size:18px;
+text-transform:uppercase;
+}
+
+.wcs-details-address-book {
+font-family:helvetica;
+font-size:12px;
+padding-top:10px;
+margin-bottom:24px;
+}
+
+.wcs-details-address-book span {
+display:block;
+line-height:17px;
+}
+
+.wcs-details-delivery-address .wcs-three.wcs-columns.wcs-details-addNewAddress {
+background:#fafafa;
+text-align:center;
+text-decoration:none;
+}
+
+.wcs-details-delivery-address .wcs-three.wcs-columns.wcs-details-addNewAddress:hover {
+background:#f5f5f5;
+border-color:#d4d4d4;
+}
+
+.wcs-details-addNewAddress span {
+background:url(../icons/spritesheet.png) no-repeat -754px -336px;
+display:block;
+width:45px;
+height:45px;
+margin:48px auto 15px;
+}
+
+.wcs-details-addNewAddress strong {
+font-size:14px;
+text-transform:uppercase;
+color:#333;
+cursor:default;
+}
+
+.wcs-delivery-information.wcs-container {
+width:480px;
+}
+
+#wcs_myDetails_addHomeAddress,#wcs_myDetails_editHomeAddress {
+top:150px;
+}
+
+#wcs-account-edit-form .wcs-myOrder-delivery-address .wcs-one.wcs-columns {
+width:85px;
+}
+
+#wcs-account-edit-form .wcs-four.wcs-columns {
+width:349px;
+}
+
+#wcs-account-edit-form .wcs-months-dd {
+width:75px;
+margin-right:8px;
+}
+
+#wcs-account-edit-form .wcs-months-dd .dropscroller {
+width:76px;
+}
+
+#wcs-account-edit-form .wcs-months-dd .wcs-custom-dropdown {
+width:64px;
+}
+
+#wcs-account-edit-form .wcs-months-dd .wcs-custom-dropdown-container {
+width:74px;
+}
+
+#wcs-account-edit-form .wcs-months-dd .wcs-dropdown-text {
+width:41px;
+}
+
+#wcs-account-edit-form .dropscroller {
+width:232px;
+}
+
+#wcs-account-edit-form .wcs-custom-dropdown {
+width:219px;
+}
+
+.wcs-details-form-rightColumn input[type="text"] {
+width:209px;
+}
+
+#wcs-account-edit-form .wcs-four.wcs-alpha .wcs-error-message {
+margin:0 0 20px 98px;
+}
+
+#wcs-account-edit-form .wcs-four.wcs-omega .wcs-error-message {
+width:215px;
+margin:0 0 20px 118px;
+}
+
+#wcs_myDetails_changeEmail .wcs-error-message,#wcs_myDetails_changePass .wcs-error-message,#wcs_myDetails_editHomeAddress .wcs-error-message {
+width:243px;
+margin:0 0 20px 113px;
+}
+
+#wcs_myDetails_editHomeAddress .wcs-error-message {
+width:227px;
+}
+
+.wcs-myDetails-lightBox-form {
+clear:both;
+margin-top:20px;
+}
+
+.wcs-lightBox-form-label {
+width:113px;
+line-height:16px;
+}
+
+.wcs-lightBox-form-label strong {
+color:#333;
+font-size:14px;
+}
+
+.wcs-myDetails-lightBox-form .clearfix {
+padding-bottom:10px;
+}
+
+.wcs-myDetails-lightbox-form-button {
+margin-top:-5px;
+text-align:right;
+padding:0 0 20px;
+}
+
+.wcs-quick-buy-lightbox .wcs-note p {
+font-size:12px;
+}
+
+.clearfix.wcs-borderTopGrayThick {
+padding:0;
+}
+
+.wcs-myOrder-details-content .wcs-myOrder-rows img {
+padding:5px 0 0;
+}
+
+.wcs-lightbox-small {
+height:auto;
+width:438px;
+padding-bottom:15px;
+}
+
+.wcs-label-check.wcs-label-check-edit {
+background-position:-778px -4px;
+}
+
+.wcs-label-check.wcs-label-check-edit.wcs-c-on {
+background-position:-778px -27px;
+}
+
+.wcs-myOrder-details-content.wcs-paddingTop-24 {
+padding-top:24px;
+}
+
+.wcs-three.wcs-columns.wcs-fill.wcs-shopping-prodDetails-img {
+height:131px;
+margin-right:0;
+width:202px;
+margin-bottom:5px;
+}
+
+.wcs-two.wcs-columns.wcs-fill.wcs-width170 {
+width:170px;
+}
+
+.wcs-myOrder-rows.wcs-nine.wcs-columns {
+margin-right:20px;
+width:700px;
+}
+
+.wcs-myOrder-rows-border {
+border-right:2px solid #ccc;
+float:left;
+}
+
+.wcs-myOrder-cost-section.wcs-nine.wcs-columns {
+border-right:2px solid #ccc;
+width:720px;
+}
+
+.wcs-nine.wcs-columns.wcs-border-rightThick-ccc {
+border-right:2px solid #ccc;
+}
+
+.wcs-delivery-row {
+overflow:hidden;
+padding:6px 0;
+}
+
+.wcs-delivery-left {
+float:left;
+font-size:17px;
+width:140px;
+}
+
+.wcs-delivery-right {
+float:left;
+font-size:13px;
+width:790px;
+font-family:helvetica;
+}
+
+.wcs-fr_CA .wcs-shopping-item-subTotal .wcs-delivery-row .wcs-delivery-right {
+width:745px;
+}
+
+.wcs-fr_CA .wcs-shopping-item-subTotal .wcs-delivery-row .wcs-delivery-left {
+width:185px;
+}
+
+.wcs-delivery-right big {
+margin:0 15px;
+}
+
+.wcs-order-delivery {
+border-bottom:2px solid #ccc;
+border-top:2px solid #ccc;
+width:930px!important;
+}
+
+.wcs-order-print {
+float:right;
+position:relative;
+margin-top:-25px;
+}
+
+.wcs-shopping-total-title span {
+color:#666;
+font-size:14px;
+text-transform:lowercase;
+vertical-align:bottom;
+}
+
+.wcs-shopping-item-qtyPlus.wcs-giftCard-item-qtyPlus {
+background-position:-260px -304px!important;
+}
+
+#wcs-paypal-popup-div {
+padding:40px;
+}
+
+#wcs-paypal-popup-div .wcs-paypal-popup-icon {
+float:left;
+background:url(../icons/paypal-popup-icons.gif) no-repeat;
+width:56px;
+height:56px;
+margin:0 20px 0 0;
+}
+
+#wcs-paypal-popup-div .wcs-paypal-popup-right {
+float:left;
+width:650px;
+}
+
+#wcs-paypal-popup-div .wcs-paypal-popup-listiem {
+margin-bottom:16px;
+}
+
+#wcs-paypal-popup-div .wcs-paypal-popup-icon-lock {
+background-position:0 -56px;
+}
+
+#wcs-paypal-popup-div .wcs-paypal-popup-icon-flex {
+background-position:0 -112px;
+}
+
+#wcs-paypal-popup-div .wcs-paypal-popup-icon-easy {
+background-position:0 0;
+}
+
+#wcs-paypal-popup-div .wcs-paypal-popup-header {
+margin-bottom:30px;
+}
+
+.wcs-basketMarginTop a#wcs-recalculate-tax,.wcs-basketMarginTop a.wcs-remove-promotion {
+font-size:12pt;
+color:#888;
+}
+
+.wcs-basketMarginTop input#wcs-promo-button {
+padding:6px 0;
+}
+
+.wcs-myPreferences a.wcs-boxborder,.wcs-myPreferences input.wcs-boxborder,#delivery_information_form input.wcs-boxborder {
+padding:7px;
+}
+
+.wcs-table {
+display:table;
+width: 100%;
+}
+
+.wcs-tablerow {
+display:table-row;
+}
+
+.wcs-tablecell {
+display:table-cell!important;
+vertical-align:top;
+}
+
+.wcs-padding6 {
+padding:0 6px;
+}
+
+.wcs-width150 {
+width:150px;
+}
+
+.wcs-tablecell .wcs-shopping-item-price,.wcs-tablecell .wcs-shopping-item-qty {
+width:auto;
+margin:0;
+padding:0;
+}
+
+.wcs-cancel-order-marginLeft {
+margin-left:15px;
+}
+
+.wcs-myorders-tabcont .wcs-myOrder-details {
+height:30px;
+}
+
+.wcs-custom-success.wcs-msg-success {
+border:2px solid #3c991c;
+margin-bottom:40px;
+}
+
+.pay_with_giftCard .gift_card_form {
+margin-top:12px!important;
+margin-bottom:5px;
+}
+
+.wcs-custom-bag .wcs-shopping-item-content span.wcs-product-blurb {
+line-height:21px;
+color:#999;
+}
+
+.wcs-custom-bag .wcs-shopping-item-content {
+padding-bottom:35px!important;
+}
+
+.wcs-custom-bag .wcs-price {
+font-size:20px;
+float:right;
+}
+
+.wcs-custom-bag .wcs-shopping-total-title span {
+vertical-align:middle;
+color:#333;
+}
+
+.wcs-custom-bag .wcs-promo-notification .wcs-notification-arrow-down {
+top:49px;
+}
+
+.wcs-custom-bag .wcs-promo-notification {
+padding:5px 0 5px 15px;
+}
+
+.wcs-shopping-button-promo.wcs-marTop2 {
+margin-top:2px;
+}
+
+.wcs-w230 {
+width:230px;
+}
+
+.wcs-basketMarginTop .wcs-button-checkout-div .wcs-button-checkout.wcs-mixedcartcheckout a {
+border:2px solid;
+}
+
+.wcs-basketMarginTop .wcs-button-checkout-div .wcs-button-checkout.wcs-mixedcartcheckout a:hover {
+color:#cacaca;
+cursor:default;
+}
+
+.wcs-custom-bag .wcs-notification-box.wcs-tax-calculate {
+left:-357px;
+}
+
+.wcs-tax-calculate .wcs-row {
+width:155px;
+float:left;
+position:relative;
+height:75px;
+}
+
+.wcs-tax-calculate .wcs-error-message {
+border:0;
+position:absolute;
+left:-6px;
+top:50px;
+width:170px;
+margin:0;
+}
+
+.wcs-custom-bag .wcs-shopping-item-title {
+margin-bottom:20px;
+padding:7px 0 5px;
+}
+
+.wcs-modified-table .wcs-icon {
+right:10px;
+}
+
+.wcs-modified-table .wcs-tablecell {
+float:none;
+padding-right:9px;
+}
+
+.wcs-modified-table .wcs-tablerow {
+padding-top:35px;
+}
+
+.wcs-modified-table .wcs-shopping-item-details span {
+padding:0 9px;
+}
+
+.wcs-custom-bag .wcs-price-title {
+margin-right:15px;
+}
+
+.wcs-padLeft-55 {
+padding-left:55px;
+}
+
+.wcs-padLeft-60 {
+padding-left:60px;
+}
+
+.wcs-marRt0 {
+margin-right:0!important;
+}
+
+.gift_card_form .wcs-width-100 {
+vertical-align:top;
+}
+
+.wcs-button-checkout-div {
+text-align:right;
+padding-right:20px;
+}
+
+.wcs-button-checkout-div .wcs-button-checkout {
+display:inline-block;
+}
+
+.wcs-basketMarginTop .wcs-button-checkout-div .wcs-button-checkout {
+width:auto;
+border:0;
+padding:0;
+}
+
+.wcs-basketMarginTop .wcs-button-checkout-div .wcs-button-checkout a {
+display:inline-block;
+width:auto;
+border:2px solid #000;
+line-height:1;
+padding:7px 7px 6px;
+}
+
+.wcs-product-confirm-div .wcs-payment-confirm-title h3 {
+font-size:26px;
+margin-bottom:0;
+}
+
+.wcs-product-confirm-div .wcs-payment-confirm-title h4 {
+font-size:18px;
+color:#999;
+}
+
+.wcs-product-confirm-div .wcs-confirm-order-header h3 {
+font-size:25px;
+line-height:21px;
+text-transform:none;
+margin:0;
+}
+
+.wcs-product-confirm-div .wcs-shopping-item-content .wcs-price {
+font-size:20px;
+}
+
+.wcs-product-confirm-div .wcs-shopping-item-subTotal .wcs-delivery-left {
+font-size:14px;
+color:#333;
+}
+
+.wcs-product-confirm-div .wcs-shopping-item-content {
+padding-top:18px;
+}
+
+.wcs-product-confirm-div .wcs-shopping-item-content .wcs-fill.wcs-border-left {
+margin-top:5px;
+height:140px;
+}
+
+.wcs-product-confirm-div .wcs-shopping-item-content span.wcs-product-blurb {
+line-height:18px;
+}
+
+.wcs-product-confirm-div .wcs-order-confirm-share .wcs-share-pdp {
+top:10px;
+padding-top:57px;
+}
+
+.wcs-product-confirm-div .wcs-tablecell.wcs-fill.wcs-alpha.wcs-omega.wcs-three.wcs-width231 .wcs-order-confirm-share .wcs-share-pdp {
+top:-119px;
+}
+
+body .wcs-order-confirm-recommends {
+padding-top:15px;
+padding-bottom:25px;
+}
+
+body .wcs-order-confirm-recommends h3 {
+margin-bottom:1px;
+}
+
+.wcs-product-confirm-div .wcs-delivery-right big {
+margin:0 17px;
+}
+
+.wcs-error-edit-basket {
+color:#ec1e24!important;
+font-weight:700;
+text-decoration:underline;
+}
+
+.wcs-myOrder-details-content .wcs-myOrder-status-section-title>em p {
+left:-80px;
+top:30px!important;
+}
+
+.wcs-myOrder-details-content .wcs-icon.wcs-notification-arrow {
+background-position:-28px -145px;
+left:80px;
+top:-20px!important;
+}
+
+.wcs-width-188 {
+width:188px!important;
+margin-top:0;
+}
+
+.wcs-calTax-label {
+font-weight:700;
+font-size:13px;
+}
+
+.wcs-mod_modified .wcs-myOrder-rows {
+overflow:hidden;
+}
+
+.ie8 input.wcs-shopping-txt-promo,.ie8 input.wcs-shopping-txt-promo:focus {
+padding-top:6px;
+padding-bottom:5px;
+}
+
+.wcs-myorders-tabcont .wcs-myOrder-rows .wcs-shopping-item-qty,.wcs-myorders-tabcont .wcs-myOrder-rows .wcs-shopping-item-details,.wcs-myorders-tabcont .wcs-myOrder-rows .wcs-shopping-item-price {
+display:table-cell;
+padding-top:0;
+vertical-align:middle;
+height:150px;
+}
+
+div.wcs-order-history .wcs-myOrder-status-title>div {
+margin-top:4px;
+}
+
+div.wcs-order-history .wcs-myOrder-status-title .wcs-myOrder-status-viewDetails,div.wcs-order-history .wcs-myOrder-status-title .wcs-myOrder-status-closeDetails {
+margin-top:3px;
+}
+
+.wcs-myorders-tabcont div.wcs-myOrder-history-content div.wcs-status-shipped-leftContent {
+width:720px;
+margin-left:6px;
+}
+
+.wcs-marBt15 {
+margin-bottom:15px;
+}
+
+.wcs-myorders-tabcont .wcs-delivery-heading {
+margin-bottom:5px;
+}
+
+.wcs-myorders-tabcont .wcs-myOrder-total-cost-details .wcs-eight.wcs-alpha {
+margin-bottom:0;
+margin-top:5px;
+line-height:normal;
+}
+
+.wcs-myOrder-details .wcs-myOrder-amount span.wcs-order-amount-span-track {
+text-align:right!important;
+min-width:230px;
+}
+
+.wcs-myOrder-details .wcs-myOrder-amount span.wcs-order-amount-span-track h3 {
+padding-left:5px;
+}
+
+.wcs-clearFix,.wcs-myOrder-status-section-waiting {
+clear:both;
+}
+
+.wcs-fRight,.wcs-details-form-rightColumn .wcs-three a {
+float:right;
+}
+
+.wcs-basketMarginTop h3,.wcs-payment-confirm-title span span,.wcs-payment-confirm-title a,.wcs-myOrder-delivery-address strong,.wcs-myOrder-delivery-payment strong,.wcs-myOrder-delivery-payment .wcs-omega a,.wcs-myDetails-title .wcs-login-title h4,.wcs-preference-details,#wcs_myDetails_changeEmail,#wcs_myDetails_changePass,.wcs-order-delivery .wcs-order-print a,.gift_card_form .wcs-width-100 a.gift_apply:hover {
+color:#333;
+}
+
+.wcs-basketMarginTop a,.wcs-custom-bag.wcs-basketMarginTop .wcs-basket-continue-shopping a,.wcs-custom-bag.wcs-basketMarginTop .wcs-apply-promo-code a,.wcs-custom-bag.wcs-basketMarginTop .wcs-text-decoration-underline {
+text-decoration:underline;
+}
+
+.wcs-basketMarginTop a:hover,.wcs-button-black a,.wcs-button-red a,.wcs-button-gray a,.wcs-shopping-item-price a.wcs-shopping-addtobag:hover,.wcs-basketMarginTop a.wcs-cart-product-title,.wcs-custom-bag.wcs-basketMarginTop a,.wcs-basketMarginTop a.wcs-nounderline {
+text-decoration:none;
+}
+
+.wcs-color999,.wcs-myOrder-prodTitle strong.wcs-product-blurb,.wcs-myOrder-prodTitle span.wcs-product-blurb {
+color:#999;
+}
+
+.wcs-shopping-item-content span.wcs-product-blurb .wcs-engraving-text,.wcs-basketMarginTop h4,#wcs-paypal-popup-div h2,#wcs-paypal-popup-div h3 {
+text-transform:none;
+}
+
+.wcs-button-black a,.wcs-shopping-item-content .wcs-product-title:hover,.wcs-custom-bag.wcs-basketMarginTop a:hover {
+color:#000;
+}
+
+.wcs-shopping-subTotal-title,.wcs-shopping-deliveryCost-title,.wcs-myOrder-prodTitle .wcs-product-title,.wcs-myOrder-rows .wcs-shopping-item-details span,.wcs-myOrder-rows .wcs-shopping-item-price,#wcs-paypal-popup-div h3 {
+color:#666;
+}
+
+.wcs-mydetails.wcs-msg-success h4,.wcs-custom-success.wcs-msg-success h4,.wcs-product-confirm-div .wcs-order-details,.wcs-product-confirm-div .wcs-payment-confirm-title .wcs-fRight a {
+font-size:16px;
+}
+
+.wcs-shopping-deliveryCost,.wcs-basketMarginTop #wcs-calculate-tax,.wcs-myorders-tabcont .wcs-delivery-left,#wcs-return-history-tab .wcs-delivery-left {
+font-size:15px;
+}
+
+.wcs-shopping-total,.wcs-payment-method span:last-child,.wcs-basket-continue-shopping,.wcs-myPreferences .wcs-nine .wcs-two.wcs-padTop-30,.wcs-myOrder-delivery-payment .wcs-omega {
+text-align:right;
+}
+
+.wcs-shopping-content-recommends .wcs-container.wcs-main,.wcs-order-history .wcs-myOrder-status-title.wcs-fill {
+margin-bottom:0;
+}
+
+.wcs-tryon-cart-choose .wcs-tryon-process-arrBg,.wcs-myOrder-details-content .wcs-two.wcs-columns .wcs-price {
+margin-right:0;
+}
+
+.wcs-shopping-item-content .wcs-three.wcs-columns.wcs-fill.wcs-alpha,.wcs-centre-align {
+text-align:center;
+}
+
+.wcs-shopping-item-share span,.wcs-custom-bag .wcs-shopping-total-title {
+font-size:22px;
+}
+
+.wcs-order-details .wcs-alpha,.wcs-details-delivery-address a {
+padding-left:15px;
+}
+
+.wcs-myOrder-details .wcs-four.wcs-columns,.wcs-three.wcs-columns.wcs-details-3-dropDown {
+width:245px;
+}
+
+.wcs-order-details .wcs-fill,.wcs-myOrder-details .wcs-fill,.gift_card_form .wcs-width-100 a.gift_apply {
+margin-top:8px;
+}
+
+.wcs-open-orders.wcs-myOrder-details .wcs-myOrder-amount.wcs-order-amount,.wcs-myorders-tabcont .wcs-order-history .wcs-fill {
+margin-top:5px;
+}
+
+#wcs-promo-button,#wcs-tax-button,.wcs-myorders-tabcont .wcs-order-history .wcs-myOrder-status-title {
+cursor:pointer;
+}
+
+#basket_promo_form .wcs-columns,.wcs-myOrder-history-content .wcs-myOrderHistory-rows img.wcs-main-image {
+padding-top:5px;
+}
+
+#basket_promo_form .wcs-columns.wcs-omega,#basket_promo_form .wcs-columns .wcs-columns {
+padding-top:0;
+}
+
+.wcs-myOrder-details-content .wcs-two.wcs-columns.wcs-myOrder-prodTitle,.wcs-width231 {
+width:231px;
+}
+
+.wcs-myPreferences a,.wcs-details-delivery-address a,#delivery_information_form .wcs-myDetails-lightbox-form-button .wcs-myOrder-status-link {
+color:#888;
+}
+
+.wcs-myPreferences a:hover,.wcs-details-delivery-address a:hover,.wcs-myOrder-delivery-payment .wcs-omega a:hover,a.wcs-myOrder-status-link:hover {
+color:#000;
+text-decoration:underline;
+}
+
+.wcs-myPreferences .wcs-myOrder-delivery-address .wcs-one.wcs-columns,#wcs-account-edit-form .wcs-details-form-rightColumn .wcs-one.wcs-columns {
+width:106px;
+}
+
+.wcs-font-size-14,.wcs-shopping-item-content span.wcs-font-14 {
+font-size:14px!important;
+}
+
+.wcs-myDetails-title h5.wcs-title-myAcc,.wcs-basketMarginTop form#basket_promo_form {
+margin-top:25px;
+}
+
+.wcs-shopping-cancel-font,.wcs-deivery-font-size {
+font-size:15px!important;
+}
+
+#wcs-account-edit-form .wcs-months-dd.wcs-no-margin,.wcs-right-panel .wcs-shopping-cart .wcs-price {
+margin:0;
+}
+
+.wcs-details-form-rightColumn .wcs-dropdown-text,.ie8 .wcs-details-form-rightColumn .wcs-custom-dropdown-select input[type="text"] {
+width:193px;
+}
+
+.wcs-quick-buy-lightbox .wcs-status-info,.wcs-delivery-heading {
+margin-bottom:10px;
+}
+
+.wcs-quick-buy-lightbox.wcs-width-412,.wcs-myorders-tabcont .wcs-myOrder-details.wcs-order-history {
+height:auto;
+}
+
+#gcItemerrorId,#gcQtyerrorId,.pay_with_giftCard #delivery_information>div {
+margin-bottom:20px;
+}
+
+.wcs-shopping-item-content .wcs-fill.wcs-pos-relative,.wcs-shopping-item-content .wcs-fill.wcs-border-left,.wcs-modified-table.wcs-table {
+margin-top:20px;
+}
+
+.wcs-myOrderHistory-rows .wcs-fill.wcs-border-left,.wcs-product-confirm-div .wcs-order-details .wcs-fill,body .wcs-myorders-tabcont .wcs-myOrder-rows .wcs-columns {
+margin-top:0;
+}
+
+.wcs-nine.wcs-columns.wcs-trackOrder-shipped,.wcs-mod_modified .wcs-myOrder-status-section {
+height:130px;
+}
+
+.wcs-basketMarginTop .wcs-basket-continue-shopping,#orderSummary #basket_promo_form .wcs-apply-promo-code {
+padding-top:4px;
+}
+
+.wcs-myorders-tabcont .wcs-price,.wcs-myorders-tabcont .wcs-myOrder-total-cost-details,.wcs-custom-bag.wcs-basketMarginTop a#wcs-recalculate-tax,.wcs-custom-bag.wcs-basketMarginTop a.wcs-remove-promotion,.wcs-product-confirm-div .wcs-shopping-item-share {
+font-size:14px;
+}
+
+.wcs-shopping-item-price .wcs-price,.wcs-myorders-tabcont h4.wcs-delivery-heading,.wcs-product-confirm-div .wcs-shopping-item-subTotal h4,.wcs-order-details .wcs-omega.wcs-confirm-order-header span,.wcs-myorders-tabcont .wcs-myOrder-total-cost-details .wcs-price {
+font-size:18px;
+}
+
+.wcs-hide{
+display: none;
+}
+.wcs-main{
+width: 75%;
+margin: 30px auto;
+}
+
+.wcs-twelve {
+width: 100%;
+}
+
+.wcs-columns {
+float: left;
+}
+
+body.android,body.ipad {
+width:100%;
+}
+
+@media screen and -webkit-min-device-pixel-ratio0{
+.pay_with_giftCard .gift_card_form {
+margin-top:12px!important;
+margin-bottom:10px;
+}
+
+ï¿½ ï¿½ï¿½ï¿½ï¿½.wcs-basketMarginTop input#wcs-promo-button {
+padding-top:7px;
+}
+
+.wcs-delivery-right big {
+margin:0 7px;
+}
+}
